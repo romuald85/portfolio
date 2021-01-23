@@ -1,4 +1,4 @@
-html, body, header, #intro, .bg-color{
+html, body, header, #intro, .bg-color, .sec1, .sec2{
     height: 100%;
 }
 
@@ -12,8 +12,26 @@ html, body, header, #intro, .bg-color{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.hr{
-    border-top: 2px solid white;
+.titre-header{
+    margin-top: 20%;
+}
+
+.navbar{
+    z-index: 1;
+}
+
+/* .jesuis{
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.arrow{
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+.sec1{
+    background: #ebebeb;
 }
 
 
