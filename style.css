@@ -1,4 +1,4 @@
-html, body, header, #intro, .bg-color, .sec1, .sec2{
+html, body, header, #intro, .bg-color{
     height: 100%;
 }
 
@@ -34,4 +34,23 @@ html, body, header, #intro, .bg-color, .sec1, .sec2{
     background: #ebebeb;
 }
 
+.laptop, .data-base, .mobile{
+    font-size: 1.5em;
+}
 
+.windows{
+    color: #01b6eb;
+}
+
+.git{
+    color: #e84e31;
+}
+
+.github{
+    color: #000000;
+}
+
+.visual, .chrome, .wamp, .filezilla, .windows, .git, .github{
+    height: 2em;
+    width: 2em;
+}
