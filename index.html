@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://bootswatch.com/4/spacelab/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 
@@ -18,10 +19,15 @@
             <div class="bg-color">
                 <div class="position-relative overflow-hidden p-3 p-md-5 text-white text-center bg-transparent">
                     <div class="col-md-5 p-lg-5 mx-auto my-5">
-                        <h1 class="titre-header display-4 fw-normal text-white">Punny headline</h1>
-                        <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing
-                            efforts with this example based on Apple’s marketing pages.</p>
-                        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+                        <h1 class="aos-item titre-header display-4 fw-normal text-white reveal-1"
+                            data-aos="zoom-in-down" data-aos-duration="1000" data-aos-once="true">
+                            Romuald Mbaye</h1>
+                        <p class="aos-item lead fw-normal reveal-2" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-once="true">
+                            Développeur Web</p>
+                        <a class="aos-item btn btn-outline-secondary reveal-3" data-aos="zoom-in"
+                            data-aos-duration="2000" data-aos-once="true" href="#sec1"><i
+                                class="fas fa-angle-double-down"></i></a>
                     </div>
                     <div class="product-device shadow-sm d-none d-md-block"></div>
                     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -62,11 +68,12 @@
     </nav>
 
 
-    <section class="pt-5 sec1">
+    <section id="sec1" class="pt-5 sec1">
         <div class="container">
             <div class="row">
                 <div class="mt-5 p-4 col-lg-6 bg-white rounded">
-                    <i class="mb-3 far fa-file-alt fa-2x text-warning"></i>
+                    <i class="mb-3 far fa-file-alt fa-2x text-warning" data-aos="zoom-in-up" data-aos-duration="1000"
+                        data-aos-once="true"></i>
                     <h3>À propos de moi</h3>
                     <h5 class="mt-3">35 ans, permis B, vivant dans la région parisienne</h5>
                     <p class="text-dark">Suite à une reconversion professionnelle, j'ai voulu me diriger vers un domaine
@@ -81,11 +88,13 @@
                         mon profil <a href="">GitHub</a>.</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="mt-5 col-lg-6">
-                    <i class="mb-3 pt-3 fas fa-award fa-2x text-warning"></i>
+                    <i class="mb-3 pt-3 fas fa-award fa-2x text-warning" data-aos="zoom-in-up" data-aos-duration="1000"
+                        data-aos-once="true"></i>
                     <h3 class="text-dark">Compétences techniques</h3>
                     <div class="progress-outer">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-info" style="width:90%;"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-info aos-item" style="width:90%;"
+                                data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"></div>
                             <div class="progress-value"><span>90</span>%</div>
                         </div>
                     </div>
@@ -93,28 +102,32 @@
                     <div class="progress-outer">
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped progress-bar-info bg-warning"
-                                style="width:80%;"></div>
+                                style="width:80%;" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+                            </div>
                             <div class="progress-value"><span>80</span>%</div>
                         </div>
                     </div>
                     <p class="pb-2 text-dark">PHP 7 / Symfony 5</p>
                     <div class="progress-outer">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-info" style="width:70%;"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-info" style="width:70%;"
+                                data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"></div>
                             <div class="progress-value"><span>70</span>%</div>
                         </div>
                     </div>
                     <p class="pb-2 text-dark">Javascript / JQuery</p>
                     <div class="progress-outer">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-info" style="width:60%;"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-info" style="width:60%;"
+                                data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"></div>
                             <div class="progress-value"><span>60</span>%</div>
                         </div>
                     </div>
                     <p class="pb-2 text-dark">Wordpress</p>
                     <div class="progress-outer">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-info" style="width:65%;"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-info" style="width:65%;"
+                                data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"></div>
                             <div class="progress-value"><span>65</span>%</div>
                         </div>
                     </div>
@@ -123,7 +136,8 @@
             </div><!-- /.row -->
             <div class="row">
                 <div class="mt-5 col-lg-6">
-                    <i class="mb-3 pt-3 far fa-keyboard fa-2x text-warning"></i>
+                    <i class="mb-3 pt-3 far fa-keyboard fa-2x text-warning" data-aos="zoom-in-up"
+                        data-aos-duration="1000" data-aos-once="true"></i>
                     <h3>Mes capacités</h3>
                     <ul class="mt-4 mb-3 list-group list-group-flush">
                         <li class="list-group-item d-flex justify-content-between lh-sm bg-light">
@@ -150,7 +164,8 @@
                     </ul>
                 </div>
                 <div class="mt-5 mb-5 col-lg-6 bg-white p-4 rounded">
-                    <i class="mb-3 fas fa-code fa-2x text-warning"></i>
+                    <i class="mb-3 fas fa-code fa-2x text-warning" data-aos="zoom-in-up" data-aos-duration="1000"
+                        data-aos-once="true"></i>
                     <h3>Environnement de travail</h3>
                     <ul class="mt-4 list-group list-group-flush text-dark">
                         <li class="list-group-item"><img class="mr-3 windows" src="icons/windows.png"
@@ -193,25 +208,29 @@
                     <div class="rond r3" data-anim="3"></div>
                     <div class="rond r4" data-anim="4"></div>
 
-                    <div class="box b1" data-anim="1">
+                    <div class="aos-item box b1 reveal-4" data-aos="flip-left" data-aos-once="true"
+                        data-aos-duration="1000" data-anim="1">
                         <h2>Lorem ipsum dolor sit amet.</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem sint sapiente
                             corporis modi iste illo expedita laudantium. Repellendus laboriosam, voluptatibus velit sunt
                             quia mollitia!</p>
                     </div>
-                    <div class="box b2" data-anim="2">
+                    <div class="aos_item box b2 reveal-5" data-aos="flip-right" data-aos-once="true"
+                        data-aos-duration="1000" data-anim="2">
                         <h2>Lorem ipsum dolor sit amet.</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem sint sapiente
                             corporis modi iste illo expedita laudantium. Repellendus laboriosam, voluptatibus velit sunt
                             quia mollitia!</p>
                     </div>
-                    <div class="box b3" data-anim="3">
+                    <div class="aos-item box b3 reveal-6" data-aos="flip-left" data-aos-once="true"
+                        data-aos-duration="1000" data-anim="3">
                         <h2>Lorem ipsum dolor sit amet.</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem sint sapiente
                             corporis modi iste illo expedita laudantium. Repellendus laboriosam, voluptatibus velit sunt
                             quia mollitia!</p>
                     </div>
-                    <div class="box b4" data-anim="4">
+                    <div class="aos-item box b4 reveal-7" data-aos="flip-right" data-aos-once="true"
+                        data-aos-duration="1000" data-anim="4">
                         <h2>Lorem ipsum dolor sit amet.</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem sint sapiente
                             corporis modi iste illo expedita laudantium. Repellendus laboriosam, voluptatibus velit sunt
@@ -223,52 +242,68 @@
     </section>
     <section class="sec3">
         <div class="container">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your
-                            mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
-                        tellus ac cursus commodo.</p>
+            <div class="row">
+                <h1 class="mt-5 mb-5 text-center">
+                    Réalisations en ligne
+                </h1>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <a href="http://my-coaching-agency.romuald.biramesene.fr/" target="_blank">
+                            <img src="images/projet-5.png" class="card-img-top image-portfolio"
+                                alt="projet-musculation">
+                        </a>
+                        <div class="card-body">
+                            <div class="content">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="http://my-coaching-agency.romuald.biramesene.fr/" target="_blank"
+                                    class="btn btn-primary">Go
+                                    somewhere</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
-                        alt="Generic placeholder image">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <a href="https://projet-4.rm-rentbike.com/" target="_blank">
+                            <img src="images/projet-4.png" class="card-img-top image-portfolio" alt="projet-blog">
+                        </a>
+                        <div class="card-body">
+                            <div class="content">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="https://projet-4.rm-rentbike.com/" target="_blank" class="btn btn-primary">Go
+                                    somewhere</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for
-                            yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
-                        tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
-                        alt="Generic placeholder image">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
-                        tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
-                        alt="Generic placeholder image">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <a href="https://rm-rentbike.com/" target="_blank">
+                            <img src="images/projet-3.png" class="card-img-top image-portfolio"
+                                alt="projet-location-de-velo">
+                        </a>
+                        <div class="card-body">
+                            <div class="content">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="https://rm-rentbike.com/" target="_blank" class="btn btn-primary">Go
+                                    somewhere</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <footer class="mastfoot mt-auto">
         <div class="inner">
@@ -283,6 +318,10 @@
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <script src="progress-bar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
