@@ -1,5 +1,5 @@
 <?php
-session_start();
+include '_inc.php';
 ?>
 
 <!DOCTYPE html>
@@ -287,6 +287,11 @@ session_start();
                     <?= implode('<br>', $_SESSION['errors']) ?>
                 </div>
             <?php endif; ?>
+            <?php if (array_key_exists('success', $_SESSION)) : ?>
+                <div class="alert alert-success">
+                    Votre mail a bien été envoyé
+                </div>
+            <?php endif; ?>
             <h1 class="text-center text-white">Contact</h1>
             <hr class="hr-contact">
             <div class="row">
@@ -297,28 +302,16 @@ session_start();
                 </div>
                 <div class="col-md-6">
                     <form action="post_contact.php" method="POST">
-                        <div class="form-group">
-                            <label for="inputname">Nom</label>
-                            <input type="text" name="name" id="inputname" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="inputemail">Email</label>
-                            <input type="email" name="email" id="inputemail" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="inputmessage">Message</label>
-                            <textarea name="message" id="inputmessage" cols="30" rows="10" class="form-control"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button class="btn btn-primary btn-block" type="submit">Envoyer</button>
-                        </div>
+                        <?php $form = new Form(isset($_SESSION['inputs']) ? $_SESSION['inputs'] : []); ?>
+                        <?= $form->text('name', 'Votre nom') ?>
+                        <?= $form->email('email', 'Votre email') ?>
+                        <?= $form->textarea('message', 'Message') ?>
+                        <?= $form->submit('submit', 'Envoyer') ?>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-
-
     <footer class="mastfoot mt-auto">
         <div class="inner">
             <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
@@ -336,3 +329,7 @@ session_start();
 </body>
 
 </html>
+<?php
+unset($_SESSION['inputs']);
+unset($_SESSION['errors']);
+unset($_SESSION['success']);
