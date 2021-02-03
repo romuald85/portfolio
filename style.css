@@ -1,16 +1,21 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 html, body, header, #intro, .bg-color{
     height: 100%;
 }
 
 #intro{
-    background: url("images/note-book.jpg") fixed no-repeat center;
+    background: linear-gradient(to bottom, #000, #0001), 
+    fixed no-repeat center url("images/note-book.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bg-color{
+/*.bg-color{
     background-color: rgba(0, 0, 0, 0.4);
-}
+}*/
 
 .titre-header{
     margin-top: 20%;
@@ -25,7 +30,7 @@ html, body, header, #intro, .bg-color{
     margin-top: 20%;
 }
 
-.sec1, .sec3{
+.sec1, .sec4{
     background: #ebebeb;
 }
 
@@ -155,6 +160,14 @@ html, body, header, #intro, .bg-color{
     left: calc(32% + 270px);
 }
 
+.parcours-title{
+    font-size: 1.3rem;
+}
+
+.parcours-paragraphe{
+    font-size: 0.8rem;
+}
+
 .card a{
     position: relative;
     overflow: hidden;
@@ -176,8 +189,8 @@ html, body, header, #intro, .bg-color{
     bottom: 10px;
     right: 10px;
     background:rgba(0, 0, 0, 0.8);
+    transition: transform .5s;
     transform: scaleY(0);
-    transition: transform .5s,
 }
 
 .card:hover .card-body{
@@ -215,6 +228,14 @@ html, body, header, #intro, .bg-color{
 
 .hr-contact{
     background: #fff;
+}
+
+.footer{
+    height: 150px;
+}
+
+.linkedin, .github{
+    color: #5E5E5E;
 }
 
 

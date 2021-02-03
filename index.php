@@ -9,8 +9,10 @@ include '_inc.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://bootswatch.com/4/spacelab/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/sandstone/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio</title>
@@ -36,28 +38,19 @@ include '_inc.php';
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Tenth navbar example">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
             <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#">Centered nav only</a>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#header">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" aria-current="page" href="#sec1">CV</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#sec3">Réalisations</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown08">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sec4">Me contacter</a>
                     </li>
                 </ul>
             </div>
@@ -80,8 +73,8 @@ include '_inc.php';
                         niveau 5. <br>
                         En tant que débutant j'ai cependant développé des projets
                         personnels pendant ma formation et mon temps libre. <br>
-                        N'hésitez pas à consulter mon <a href="">portfolio</a> et
-                        mon profil <a href="">GitHub</a>.</p>
+                        N'hésitez pas à consulter mon <a href="#sec3">portfolio</a> et
+                        mon profil <a href="https://github.com/romuald85" target="_blank">GitHub</a>.</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="mt-5 col-lg-6">
                     <i class="mb-3 pt-3 fas fa-award fa-2x text-warning" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="true"></i>
@@ -171,17 +164,8 @@ include '_inc.php';
                 </div>
             </div>
         </div>
-
-        <!-- <div class="row">
-            <div class="cv col-md-4 bg-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus rem sint
-                rerum debitis, vitae eligendi earum aut labore exercitationem possimus culpa obcaecati? Ducimus totam,
-                placeat exercitationem odio quod perspiciatis deleniti!</div>
-            <div class="competences col-md-4 bg-danger">blue</div>
-            <div class="outils col-md-4 bg-info">green</div>
-        </div> -->
-
     </section>
-    <section class="sec2">
+    <!--<section id="sec2" class="sec2">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 box-timeline">
@@ -193,10 +177,8 @@ include '_inc.php';
                     <div class="rond r4" data-anim="4"></div>
 
                     <div class="aos-item box b1 reveal-4" data-aos="flip-left" data-aos-once="true" data-aos-duration="1000" data-anim="1">
-                        <h2>Lorem ipsum dolor sit amet.</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatem sint sapiente
-                            corporis modi iste illo expedita laudantium. Repellendus laboriosam, voluptatibus velit sunt
-                            quia mollitia!</p>
+                        <h2 class="mb-3 parcours-title">Formation OpenClassrooms: développeur web junior.</h2>
+                        <p class="parcours-paragraphe">Préparation au Titre RNCP concepteur/développeur web de niveau 5.Apprentissage des bases des langages de programmation tel que: HTML5, CSS, Javascript, PHP etc.</p>
                     </div>
                     <div class="aos_item box b2 reveal-5" data-aos="flip-right" data-aos-once="true" data-aos-duration="1000" data-anim="2">
                         <h2>Lorem ipsum dolor sit amet.</h2>
@@ -219,8 +201,8 @@ include '_inc.php';
                 </div>
             </div>
         </div>
-    </section>
-    <section class="sec3">
+    </section>-->
+    <section id="sec3" class="sec3">
         <div class="container">
             <div class="row">
                 <h1 class="mt-5 mb-5 text-center">
@@ -233,12 +215,9 @@ include '_inc.php';
                         </a>
                         <div class="card-body">
                             <div class="content">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="http://my-coaching-agency.romuald.biramesene.fr/" target="_blank" class="btn btn-primary">Go
-                                    somewhere</a>
+                                <h5 class="card-title">My program</h5>
+                                <p class="card-text mb-2">Site e-commerce de vente de programmes de sport en ligne (projet dans le cadre de ma formation)</p>
+                                <a href="http://my-coaching-agency.romuald.biramesene.fr/" target="_blank" class="btn btn-primary">Visiter le site</a>
                             </div>
                         </div>
                     </div>
@@ -250,12 +229,9 @@ include '_inc.php';
                         </a>
                         <div class="card-body">
                             <div class="content">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="https://projet-4.rm-rentbike.com/" target="_blank" class="btn btn-primary">Go
-                                    somewhere</a>
+                                <h5 class="card-title">Billet pour l'alaska</h5>
+                                <p class="card-text mb-2">Blog pour un écrivain (projet dans le cadre de ma formation)</p>
+                                <a href="https://projet-4.rm-rentbike.com/" target="_blank" class="btn btn-primary">Visiter le site</a>
                             </div>
                         </div>
                     </div>
@@ -267,12 +243,9 @@ include '_inc.php';
                         </a>
                         <div class="card-body">
                             <div class="content">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="https://rm-rentbike.com/" target="_blank" class="btn btn-primary">Go
-                                    somewhere</a>
+                                <h5 class="card-title">Application vélo location</h5>
+                                <p class="card-text mb-2">Carte interactive de location de vélos (projet dans le cadre de ma formation)</p>
+                                <a href="https://rm-rentbike.com/" target="_blank" class="btn btn-primary">Visiter le site</a>
                             </div>
                         </div>
                     </div>
@@ -280,7 +253,7 @@ include '_inc.php';
             </div>
         </div>
     </section>
-    <section class="sec4" id="sec4">
+    <section class="pt-2 pb-5 sec4" id="sec4">
         <div class="container contact-form">
             <?php if (array_key_exists('errors', $_SESSION)) : ?>
                 <div class="alert alert-danger">
@@ -296,9 +269,8 @@ include '_inc.php';
             <hr class="hr-contact">
             <div class="row">
                 <div class="col-md-6">
-                    <address>Adresse</address>
-                    <p>Email: test@email.com</p>
-                    <p>Phone: 6555651651</p>
+                    <p>Email: romuald.mbaye@gmail.com</p>
+                    <p>Phone: +33 6 95 50 21 63</p>
                 </div>
                 <div class="col-md-6">
                     <form action="post_contact.php" method="POST">
@@ -312,9 +284,10 @@ include '_inc.php';
             </div>
         </div>
     </section>
-    <footer class="mastfoot mt-auto">
-        <div class="inner">
-            <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <footer class="footer">
+        <div class="pt-5 text-center inner">
+            <p><small>© Romuald Mbaye, Tous droits réservés.</small></p>
+            <p><a href="https://fr.linkedin.com/in/romuald-mbaye-bb4678204/fr-fr?trk=people-guest_people_search-card" target="_blank"><i class="fab fa-linkedin-in mr-2 fa-2x linkedin"></i></a><a href="https://github.com/romuald85" target="_blank"><i class="fab fa-github fa-2x github"></i></a></p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
