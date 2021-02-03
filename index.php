@@ -205,9 +205,9 @@ include '_inc.php';
     <section id="sec3" class="sec3">
         <div class="container">
             <div class="row">
-                <h1 class="mt-5 mb-5 text-center">
+                <h2 class="mt-5 mb-5 text-center">
                     Réalisations en ligne
-                </h1>
+                </h2>
                 <div class="col-md-6 mb-4">
                     <div class="card">
                         <a href="http://my-coaching-agency.romuald.biramesene.fr/" target="_blank">
@@ -265,7 +265,7 @@ include '_inc.php';
                     Votre mail a bien été envoyé
                 </div>
             <?php endif; ?>
-            <h1 class="text-center text-white">Contact</h1>
+            <h2 class="text-center text-white">Contact</h2>
             <hr class="hr-contact">
             <div class="row">
                 <div class="col-md-6">

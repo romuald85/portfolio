@@ -25,7 +25,12 @@ if (!empty($errors)) {
     $nom = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
+    $header = "MIME-Version: 1.0\r\n";
+    $header .= "From: $email" . "\n";
+    $header .= "Content-Type:text/html; charset='utf-8'" . "\n";
+    $header .= "Content-Transfer-Encoding: 8bit";
     header('Location:index.php#sec4');
 
-    require 'phpmailer.php';
+    mail('romuald.mbaye@gmail.com', 'Formulaire de contact', $message, $header);
+    // require 'phpmailer.php';
 }
