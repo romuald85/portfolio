@@ -60,9 +60,7 @@ html, body, header, #intro, .bg-color{
     top: 12px;
     right: 10px;
 }
-/* @keyframes animate-positive{
-    0%{ width: 0; }
-} */
+
 
 .laptop, .data-base, .mobile{
     font-size: 1.5em;

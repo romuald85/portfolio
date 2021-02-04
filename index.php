@@ -38,13 +38,17 @@ include '_inc.php';
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Tenth navbar example">
         <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#header">Accueil</a>
+                        <a class="nav-link" href="#header">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#sec1">CV</a>
+                        <a class="nav-link" href="#sec1">CV</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#sec3">Réalisations</a>
@@ -56,8 +60,6 @@ include '_inc.php';
             </div>
         </div>
     </nav>
-
-
     <section id="sec1" class="pt-5 sec1">
         <div class="container">
             <div class="row">
@@ -170,12 +172,10 @@ include '_inc.php';
             <div class="row">
                 <div class="col-sm-12 box-timeline">
                     <div class="ligne"></div>
-
                     <div class="rond r1" data-anim="1"></div>
                     <div class="rond r2" data-anim="2"></div>
                     <div class="rond r3" data-anim="3"></div>
                     <div class="rond r4" data-anim="4"></div>
-
                     <div class="aos-item box b1 reveal-4" data-aos="flip-left" data-aos-once="true" data-aos-duration="1000" data-anim="1">
                         <h2 class="mb-3 parcours-title">Formation OpenClassrooms: développeur web junior.</h2>
                         <p class="parcours-paragraphe">Préparation au Titre RNCP concepteur/développeur web de niveau 5.Apprentissage des bases des langages de programmation tel que: HTML5, CSS, Javascript, PHP etc.</p>
@@ -269,8 +269,8 @@ include '_inc.php';
             <hr class="hr-contact">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Email: romuald.mbaye@gmail.com</p>
-                    <p>Phone: +33 6 95 50 21 63</p>
+                    <p>Email: <a href="mailto:romuald.mbaye@gmail.com">romuald.mbaye@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+33 6 95 50 21 63">+33 6 95 50 21 63</a></p>
                 </div>
                 <div class="col-md-6">
                     <form action="post_contact.php" method="POST">
