@@ -1,14 +1,18 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-html, body, header, #intro, .bg-color{
+html,
+body,
+header,
+#intro,
+.bg-color {
     height: 100%;
 }
 
-#intro{
-    background: linear-gradient(to bottom, #000, #0001), 
-    fixed no-repeat center url("images/note-book.jpg");
+#intro {
+    background: linear-gradient(to bottom, #000, #0001),
+        fixed no-repeat center url("img/notebook.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,24 +21,25 @@ html, body, header, #intro, .bg-color{
     background-color: rgba(0, 0, 0, 0.4);
 }*/
 
-.titre-header{
+.titre-header {
     margin-top: 20%;
 }
 
-.navbar{
+.navbar {
     z-index: 1;
 }
 
-.arrow{
+.arrow {
     margin-left: 50%;
     margin-top: 20%;
 }
 
-.sec1, .sec4{
+.sec1,
+.sec4 {
     background: #ebebeb;
 }
 
-.progress-outer{
+.progress-outer {
     background: #fff;
     padding: 5px 60px 5px 5px;
     border: 3px solid #bebfbf;
@@ -42,17 +47,20 @@ html, body, header, #intro, .bg-color{
     margin-bottom: 20px;
     position: relative;
 }
-.progress{
+
+.progress {
     background: #bebfbf;
     border-radius: 20px;
     margin: 0;
 }
-.progress .progress-bar{
+
+.progress .progress-bar {
     border-radius: 20px;
     box-shadow: none;
     animation: animate-positive 2s;
 }
-.progress .progress-value{
+
+.progress .progress-value {
     font-size: 14px;
     font-weight: 700;
     color: #6b7880;
@@ -62,28 +70,36 @@ html, body, header, #intro, .bg-color{
 }
 
 
-.laptop, .data-base, .mobile{
+.laptop,
+.data-base,
+.mobile {
     font-size: 1.5em;
 }
 
-.windows{
+.windows {
     color: #01b6eb;
 }
 
-.git{
+.git {
     color: #e84e31;
 }
 
-.github{
+.github {
     color: #000000;
 }
 
-.visual, .chrome, .wamp, .filezilla, .windows, .git, .github{
+.visual,
+.chrome,
+.wamp,
+.filezilla,
+.windows,
+.git,
+.github {
     height: 2em;
     width: 2em;
 }
 
-.box-timeline{
+.box-timeline {
     width: 100%;
     height: 1500px;
     position: relative;
@@ -91,14 +107,14 @@ html, body, header, #intro, .bg-color{
     margin-bottom: 100px;
 }
 
-.ligne{
+.ligne {
     height: 1400px;
     width: 3px;
     margin: 0 auto;
     background: #406791;
 }
 
-.rond{
+.rond {
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -111,20 +127,23 @@ html, body, header, #intro, .bg-color{
     justify-content: center;
 }
 
-.r1{
+.r1 {
     top: 80px;
 }
-.r2{
+
+.r2 {
     top: 386px;
 }
-.r3{
+
+.r3 {
     top: 692px;
 }
-.r4{
+
+.r4 {
     top: 1000px;
 }
 
-.box{
+.box {
     color: #406791;
     width: 400px;
     min-height: 200px;
@@ -138,64 +157,64 @@ html, body, header, #intro, .bg-color{
     transform: translate(-50%);
 }
 
-.b1{
+.b1 {
     top: 80px;
     left: calc(32% - 270px);
 }
 
-.b2{
+.b2 {
     top: 386px;
     left: calc(32% + 270px);
 }
 
-.b3{
+.b3 {
     top: 692px;
     left: calc(32% - 270px);
 }
 
-.b4{
+.b4 {
     top: 1000px;
     left: calc(32% + 270px);
 }
 
-.parcours-title{
+.parcours-title {
     font-size: 1.3rem;
 }
 
-.parcours-paragraphe{
+.parcours-paragraphe {
     font-size: 0.8rem;
 }
 
-.card a{
+.card a {
     position: relative;
     overflow: hidden;
 }
 
-.card a img{
+.card a img {
     max-width: 100%;
     transition: transform 2s;
 }
 
-.card a:hover img{
+.card a:hover img {
     transform: scale(1.2);
 }
 
-.card .card-body{
+.card .card-body {
     position: absolute;
     top: 10px;
     left: 10px;
     bottom: 10px;
     right: 10px;
-    background:rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     transition: transform .5s;
     transform: scaleY(0);
 }
 
-.card:hover .card-body{
+.card:hover .card-body {
     transform: scaleY(1);
 }
 
-.card .card-body .content{
+.card .card-body .content {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -204,67 +223,68 @@ html, body, header, #intro, .bg-color{
     color: #fff;
 }
 
-.card .card-body h5{
+.card .card-body h5 {
     margin: 0;
     padding: 0;
     font-size: 20px;
     color: #de7e07;
 }
 
-.card .card-body p{
+.card .card-body p {
     margin: 10px 0 0;
     padding: 0;
 }
 
-.contact-form{
-    background:rgba(0, 0, 0, 0.6);
+.contact-form {
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     margin-top: 100px;
     padding: 20px;
     box-shadow: 0px 0px 10px 3px grey;
 }
 
-.hr-contact{
+.hr-contact {
     background: #fff;
 }
 
-.footer{
+.footer {
     height: 150px;
 }
 
-.linkedin, .github{
+.linkedin,
+.github {
     color: #5E5E5E;
 }
 
 
 
-@media screen and (max-width: 1000px){
-    .ligne{
+@media screen and (max-width: 1000px) {
+    .ligne {
         position: relative;
         left: 200px;
     }
 
-    .rond{
+    .rond {
         left: calc(50% + 200px);
     }
 
-    .box{
+    .box {
         left: calc(1% - 50px);
     }
 }
 
-@media screen and (max-width: 550px){
-    .box{
+@media screen and (max-width: 550px) {
+    .box {
         width: 100%;
         margin: 0 0 0 60px;
 
     }
 
-    .ligne{
+    .ligne {
         display: none;
     }
 
-    .rond{
+    .rond {
         display: none;
     }
 }
