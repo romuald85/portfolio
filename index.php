@@ -13,7 +13,7 @@ include 'php/_inc.php';
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio</title>
 </head>
@@ -65,8 +65,8 @@ include 'php/_inc.php';
             <div class="row">
                 <div class="mt-5 p-4 col-lg-6 bg-white rounded">
                     <i class="mb-3 far fa-file-alt fa-2x text-warning" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="true"></i>
-                    <h3>À propos de moi</h3>
-                    <h5 class="mt-3">35 ans, permis B, vivant dans la région parisienne</h5>
+                    <h3>À propos de moi:</h3>
+                    <h5 class="mt-3">35 ans, permis B, vivant dans la région parisienne.</h5>
                     <p class="text-dark">Suite à une reconversion professionnelle, j'ai voulu me diriger vers un domaine
                         qui m'intéresse
                         depuis longtemps:<br>
@@ -224,28 +224,42 @@ include 'php/_inc.php';
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="card">
-                        <a href="https://projet-4.rm-rentbike.com/" target="_blank">
+                        <a href="http://projet4.romuald-mbaye.com/" target="_blank">
                             <img src="images/projet-4.png" class="card-img-top image-portfolio" alt="projet-blog">
                         </a>
                         <div class="card-body">
                             <div class="content">
                                 <h5 class="card-title">Billet pour l'alaska</h5>
                                 <p class="card-text mb-2">Blog pour un écrivain (projet dans le cadre de ma formation)</p>
-                                <a href="https://projet-4.rm-rentbike.com/" target="_blank" class="btn btn-primary">Visiter le site</a>
+                                <a href="http://projet4.romuald-mbaye.com/" target="_blank" class="btn btn-primary">Visiter le site</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="card">
-                        <a href="https://rm-rentbike.com/" target="_blank">
+                        <a href="http://romuald-mbaye.com/" target="_blank">
                             <img src="images/projet-3.png" class="card-img-top image-portfolio" alt="projet-location-de-velo">
                         </a>
                         <div class="card-body">
                             <div class="content">
                                 <h5 class="card-title">Application vélo location</h5>
                                 <p class="card-text mb-2">Carte interactive de location de vélos (projet dans le cadre de ma formation)</p>
-                                <a href="https://rm-rentbike.com/" target="_blank" class="btn btn-primary">Visiter le site</a>
+                                <a href="http://romuald-mbaye.com/" target="_blank" class="btn btn-primary">Visiter le site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <a href="http://projet1.romuald-mbaye.com/" target="_blank">
+                            <img src="images/projet-1.png" class="card-img-top image-portfolio" alt="projet-web-agency">
+                        </a>
+                        <div class="card-body">
+                            <div class="content">
+                                <h5 class="card-title">Web agency</h5>
+                                <p class="card-text mb-2">Maquette de site en HTML et CSS (projet dans le cadre de ma formation)</p>
+                                <a href="http://projet1.romuald-mbaye.com/" target="_blank" class="btn btn-primary">Visiter le site</a>
                             </div>
                         </div>
                     </div>

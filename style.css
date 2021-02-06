@@ -12,7 +12,7 @@ header,
 
 #intro {
     background: linear-gradient(to bottom, #000, #0001),
-        fixed no-repeat center url("img/notebook.jpg");
+        fixed no-repeat center url("images/note-book.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
