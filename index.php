@@ -76,7 +76,7 @@ include 'php/_inc.php';
                         En tant que débutant j'ai cependant développé des projets
                         personnels pendant ma formation et mon temps libre. <br>
                         N'hésitez pas à consulter mon <a href="#sec3">portfolio</a> et
-                        mon profil <a href="https://github.com/romuald85" target="_blank">GitHub</a>.</p>
+                        mon profil <a href="https://github.com/romuald85" target="_blank">GitHub</a> ainsi que de télécharger mon <a href="download.php">CV</a>.</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="mt-5 col-lg-6">
                     <i class="mb-3 pt-3 fas fa-award fa-2x text-warning" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="true"></i>
