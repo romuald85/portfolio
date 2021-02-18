@@ -66,8 +66,7 @@ include 'php/_inc.php';
                 <div class="mt-5 p-4 col-lg-6 bg-white rounded">
                     <i class="mb-3 far fa-file-alt fa-2x text-warning" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="true"></i>
                     <h3>À propos de moi:</h3>
-                    <h5 class="mt-3">35 ans, permis B, vivant dans la région parisienne.</h5>
-                    <p class="text-dark">Suite à une reconversion professionnelle, j'ai voulu me diriger vers un domaine
+                    <p class="text-dark paragraphe-a-propos">Suite à une reconversion professionnelle, j'ai voulu me diriger vers un domaine
                         qui m'intéresse
                         depuis longtemps:<br>
                         - Le développement web. <br>

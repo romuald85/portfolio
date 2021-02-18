@@ -39,6 +39,10 @@ header,
     background: #ebebeb;
 }
 
+.paragraphe-a-propos{
+    font-size: 18px;
+}
+
 .progress-outer {
     background: #fff;
     padding: 5px 60px 5px 5px;
